@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.slidercontainer{
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+    margin: 2px auto;
+    overflow: hidden;
+    position: relative;
+}
+span{
+    position: absolute;
+    top: 45%;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    left: 2%;
+    z-index: 1;
+}
+span:nth-of-type(2){
+    left: 92%;
+    text-align: right;
+}
+.nproslider{
+    width: 80%;
+    margin: 2px auto;
+    display: flex;
+    margin-top: -18px;
+    justify-content: left;
+    overflow-x: auto;
+}
+.nproslider::-webkit-scrollbar{
+    visibility: hidden;
+}
+.dproducts, .wproducts, .mproducts{
+    min-width: 46%;
+    height: 220px;
+    position: relative;
+    left: 0px;
+    margin: 20px 0px 20px 10px ;
+    transition: 0.5;
+    border: 1px solid rgb(235,235,235);
+    box-shadow: 1px 4px 8px rgb(225,225,225);
+}
+.productrating {
+    margin: 0% 0% 3% 2%;
+}
+.productrating i{
+    font-size: 20px;
+}
+.productrating .checked {
+    color: orange;
+}
+.nprodpic{
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+.nprodpic img{
+    width: 100%;
+    height: 100%;
+}
+.nprodpic .propichover{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0px auto;
+    visibility: hidden;
+}
+.nprodpic:hover .propichover{
+    visibility: visible;
+}
+.addtocart{
+    width: 50%;
+    padding: 2%;
+    margin: 25% 0% 0% 25%;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nproddetails p{
+    font-size: 18px;
+    line-height: 20px;
+    padding: 1% 0% 2% 2%;
+}
+.ncategnamediv{
+    width: 90%;
+    height: 50px;
+    padding-left: 10px;
+    background-color: rgb(0,59,93);
+    color: white;
+}
+.dcategname{
+    width: 15%;
+    line-height: 20px;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer ;
+}
+.elecwidth{
+    width: 32%;
+}
+.dcategname h4{
+    cursor: pointer ;
+    text-align: center;
+    margin-top: 15px;
+}
+@media only screen and (min-width:768px) {
+ 
+    .dproducts, .wproducts, .mproducts{
+        min-width: 23%;
+        margin: 20px 0px 20px 20px ;
+     }
+     .dcategname{
+        width: 12%;
+        font-size: 20px;
+    }
+    .elecwidth{
+        width: 20%;
+    }
+    .nproslider{
+        width: 90%;
+    }
+    .addtocart{
+        top: 15px;
+    }
+    .ncategnamediv{
+        width: 95.2%;
+        margin-left: 25px;
+        height: 50px;
+        padding-left: 10px;
+        background-color: rgb(0,59,93);
+        color: white;
+    }
+    span:nth-of-type(2){
+        left: 96%;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .dproducts, .wproducts, .mproducts{
+        min-width: 17.5%;
+        margin: 20px 20px 20px 20px ;
+     }
+     .dcategname{
+        width: 6%;
+    }
+    .elecwidth{
+        width: 10%;
+    }
+    .addtocart{
+        top: 18px;
+        width: 50%;
+        padding: 2%;
+        margin: 20% 0% 0% 25%;
+    }
+}

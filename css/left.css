@@ -1,0 +1,84 @@
+
+.alloptions
+{
+    width: 23%;
+    margin-left: 4%;
+    margin-top: 50px;
+    float: left;
+    min-height: 200px;
+}
+.propic {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+.propic i {
+    float: left;
+    margin-left: 5%;
+    color: rgb(0, 59, 93);
+    margin-top: 2%;
+}
+.propic h3 {
+    float: left;
+    padding: 20px 20px 20px 20px ;
+}
+
+.details {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.orders {
+    width: 90%;
+    height: 20px;
+    padding: 5%;
+    border-bottom: 1px solid lightgrey;
+}
+.orders i {
+    float: left;
+    color: rgb(0, 59, 93);
+}
+.orders h4 {
+    float: left;
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgb(0, 59, 93);
+}
+.opt {
+    float: right;
+    font-weight: bold;
+}
+.opt a {
+    text-decoration: none;
+    color: rgb(0, 59, 93);
+}
+
+.categ {
+    width: 90%;
+    padding: 5%;
+    border-bottom: 1px solid lightgrey;
+}
+.categ i {
+    float: left;
+    color: rgb(0, 59, 93);
+}
+.categ h4 {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: rgb(0, 59, 93);
+}
+.categ ul {
+    margin-left: 40px;
+    list-style-type: none;
+}
+.categ ul li {
+    margin-bottom: 10px;
+    font-size: 14.5px;
+}
+.categ ul li a {
+    text-decoration: none;
+    color: black;
+}

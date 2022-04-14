@@ -1,0 +1,141 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+body
+{
+    background-color: rgb(235,235,235);
+}
+.usercontainer
+{
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+    color:rgb(0,59,93);
+}
+.alloptions
+{
+    width: 23%;
+    margin-left: 4%;
+    margin-top: 50px;
+    float: left;
+    min-height: 200px;
+}
+.profileinfo
+{
+    width:65%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 2%;
+    min-height: 630px;
+    background-color: white;
+}
+.profileinfo h4
+{
+    padding:20px 10px 30px 40px;
+    font-size: 1.3em;
+}
+.profileinfo h5
+{
+    padding:0px 10px 0px 40px;
+    font-size: 1.1em;
+}
+.coupon
+{
+    width: 70%;
+    margin-left: 5%;
+    box-shadow: 1px 1px 1px 1px rgb(0,59,93);
+    height: 110px;
+    margin-top: 10px;
+}
+.chead
+{
+    width: 70%;
+
+    height: 100%;
+    float:left;
+}
+.chead h4
+{
+    font-size: 1.2em;
+    margin-left: 0px;
+    padding:10px 10px 10px 10px ;
+}
+.chead p
+{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding:10px 10px 10px 10px ;
+}
+.valid 
+{
+    width: 30%;
+    float: left;
+}
+.valid p
+{
+    padding-top: 15px;
+    font-size: 1em;
+}
+.cmargin 
+{
+    margin-top: 30px;
+}
+@media only screen and (max-width: 1024px )
+{
+    .alloptions
+    {
+        width: 35%;
+    }
+    .profileinfo
+    {
+        width: 92%;
+        margin-left: 4%;
+    }
+    .coupon
+    {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .alloptions
+    {
+        width: 92%;
+    }
+    .profileinfo
+    {
+        width: 92%;
+        margin-left: 4%;
+    }
+    .profileinfo h4
+    {   
+        padding-left: 15px;
+    }
+    .profileinfo h5
+    {
+        padding-left: 15px;
+    }
+    .coupon
+    {
+        height: 200px;
+    }
+    .chead
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .chead p
+    {
+        margin-top: -10px;
+    }
+    .valid
+    {
+        width: 90%;
+        margin-left: 4%;
+    }
+}

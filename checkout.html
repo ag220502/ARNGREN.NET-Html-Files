@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/checkout.css"/>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/mobnav.css">
+    <link rel="stylesheet" href="css/mobheader.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>  
+    <nav class="mainmenu">
+        <div class="main">
+            <div class="logo">
+                <a href="homepage.html"><img src="images/logo.gif" alt=""> <p>arngren.net</p></a>
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="text" name="search" placeholder="Search">
+                </form>
+            </div>
+            <a href="login.html">
+                <button class="signin">
+                    Sign In / Sign Up
+                </button>
+            </a>
+            <a href="checkout.html">
+                <div class="carticon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+            </a>
+        </div>
+        <div class="menu">
+            <ul class="menuul">
+                <li class="ulli"><a href="homepage.html">Home</a></li>
+                <li class="category ulli"><a href="#">Categories</a>
+                    <div class="categories">
+                        <div class="cat">
+                            <ul>
+                                <h4><a href="products1.html"><li>Electronics</li></a></h4>
+                                <h4><a href="products2.html"><li>Vehicles</li></a></h4>
+                                <h4><a href="products3.html"><li>Toys</li></a></h4>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="ulli"><a href="deals.html">Offer Zone</a></li>
+                <li class="ulli"><a href="helpcenter.html">Customer Services</a></li>
+                <li class="ulli"><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>        
+    </nav>
+    <div class="ctgheader">
+        <div class="ctglogo">
+            <a href="checkout.html"><img src="images/logo.gif" alt=""></a>
+        </div>
+        <div class="ctgsearch">
+            <i class="fas fa-search"></i>
+            <input type="search" name="searchbar" placeholder="Search">
+        </div>
+        <div class="ctgcart">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </div> 
+    <div class="full">
+        <div class="and">
+            <div class="credit">
+                <h1 class="bill">Billing Details</h1>    
+                <div class="full1">
+                    <label>First Name *</label>
+                    <input type="text" class="news2" required>
+                </div>
+                <div class="full1 f1">
+                    <label>Last Name</label>
+                    <input type="text" class="news2" required>
+                </div>    
+                <div class="full3">
+                    <label>Company name (optional) </label>
+                    <input type="text" class="news10">
+                </div>    
+                <div class="full3">
+                    <label>Country*</label>
+                    <input type="text" class="news10" required>
+                </div>    
+                <div class="full1">
+                    <label>Street address*</label>
+                    <input type="text" class="news2" placeholder="House number and Street name" required>
+                </div>    
+                <div class="full6">
+                    <input type="text" class="news2" placeholder="Appartments, suite, unit etc ..." required>
+                </div>    
+                <div class="full1">
+                    <label>Town / City*</label>
+                    <input type="text" class="news2" required>
+                </div>
+                <div class="full1 f1">
+                    <label>State/ Country*</label>
+                    <input type="text" class="news2" required>
+                </div>    
+                <div class="full1">
+                    <label>Postcode / ZIP*</label>
+                    <input type="text" class="news2" required>
+                </div>
+                <div class="full1 f1">
+                    <label>Phone*</label>
+                    <input type="text" class="news2" required>
+                </div>
+                <div class="full3">
+                    <label>Email address*</label>
+                    <input type="text" class="news10" required>
+                </div>    
+                <div class="full3">
+    
+                    <label>Order notes (optional)</label>
+                    <textarea class="news10" rows="4"
+                        placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+                </div>    
+            </div>
+            <div class="next">    
+                <h3 class="text0">Your Order
+                    <hr>
+                </h3>    
+                <div class="next1">
+    
+                    <p class="text1">Product</p>
+                    <p class="text2">Total</p>
+                </div>    
+                <div>
+                    <p class="text3">Helicopter (toy)</p>
+                    <label class="text4">$84.00</label>
+                    <hr>
+    
+                </div>
+                <div>
+                    <p class="text5 tst">Dummy Camera</p>
+                    <label class="text6">$76,00</label>
+                    <hr>
+    
+                </div>
+                <div>
+                    <p class="text5">Subtotal:</p>
+                    <label class="text7">$160.00</label>
+                    <hr>    
+                </div>
+                <div>
+                    <p class="text5">shipping:</p>
+                    <p class="text10">Free shipping</p>
+                    <hr>
+                </div>
+                <div>
+                    <p class="text5" style="color:orange">Total:</p>
+                    <label class="text7" style="color:orange">$160.00</label>    
+                    <div class="images">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                    </div>    
+                    <form action="">
+                        <div class="check1">
+                            <input type="radio" name="ans"> &nbsp;Direct bank transfer
+                            <br>
+                            <br>
+                            <input type="radio" name="ans"> &nbsp;Check payments
+                            <br>
+                            <br>
+                            <input type="radio" name="ans"> &nbsp;Cash on delivery
+                            <br>
+                            <br>
+                            <input type="radio" name="ans"> &nbsp;PayPal
+                            <br>
+                            <br>
+                            <input type="radio" name="ans"> &nbsp;Credit Card(Stripe)
+                        </div>
+                    </form>
+                    <div>
+                       <a href="homepage.html"> <button class="btn1"> Place Order</button></a>
+                    </div>    
+                </div>
+            </div>    
+        </div>
+        <nav class="mobnav">
+            <ul>
+                <li>
+                    <a href="homepage.html" target="_self"><i class="fas fa-home"></i>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="categories.html" target="_self"><i class="fas fa-box"></i>
+                        <p>Categories</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html" target="_self"><i class="fas fa-users"></i>
+                        <p>Account</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="contactus.html" target="_self"><i class="fas fa-book-open"></i>
+                        <p>Contact Us</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="helpcenter.html" target="_self"><i class="fas fa-headset"></i>
+                        <p>Help</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer">
+        <div class="fcontactus">
+            <div class="footerheading">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="footerlogo"> <a href="homepage.html"><h1><i> ARGREN.NET </i></h1></a></div>
+            <div class="fcontactinfo">
+                <div class="fconinfo" style=" margin-top: 2%;">
+                    <div class="footericon" style="line-height: 70px;"><i class="fas fa-map-marker-alt"></i></div>
+                    <p>Burjuman Exit 3,<br>Dubai Main City<br> UAE</p>
+                </div>
+                <div class="fconinfo">
+                    <div class="footericon"><i class="fas fa-envelope-open-text"></i></div>
+                    <p>stroyka@example.com</p>
+                </div>
+                <div class="fconinfo">
+                    <div class="footericon" style="line-height: 60px; rotate: 180deg;"><i class="fa fa-phone"></i></div>
+                    <p>+971 234 **** ****,<br>+971 235 **** ****</p>
+                </div>
+                <div class="fconinfo">
+                    <div class="footericon" style="line-height: 60px;"><i class="fas fa-clock"></i></div>
+                    <p>Monday-Saturday<br>10:00pm-7:00pm</p>
+                </div>
+            </div>
+        </div>
+        <div class="finfo">
+            <div class="footerheading">
+                <h1>Information</h1>
+            </div>
+            <div class="finformation">
+                <ul class="finfoul">
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="deals.html">Offer Zone</a></li>
+                    <li><a href="helpcenter.html"> Customer Services</a></li>
+                    <li><a href="contactus.html"> Contact Us </a></li>
+                    <li><a href="login.html">Sign In</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fmyaccount">
+            <div class="footerheading">
+                <h1>My Account</h1>
+            </div>
+            <div class="faccount">
+                <ul class="finfoul">
+                    <li><a href="userdashboard.html">User Dashboard</a></li>
+                    <li><a href="address.html">Manage Address</a></li>
+                    <li><a href="cards.html">Manage Cards</a></li>
+                    <li><a href="coupons.html">Your Coupons</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="userfaq.html">User FAQ's</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fnewsletter">
+            <div class="footerheading">
+                <h1>Newsletter</h1>
+            </div>
+            <p class="fpara">Get all the latest information on New Products and Offers.<br>Sign up for newsletter today.</p>
+            <form action="homepage.html">
+                <input type="email" placeholder="Email Address..." class="emailaddress">
+                <button class="fsubbtn">Subscribe</button>
+            </form>
+            <p>Follow us on social networks</p>
+            <div class="fsocialicons">
+                <i class="fa fa-youtube-play fsclicons"></i>
+                <i class="fa fa-instagram fsclicons"></i>
+                <i class="fab fa-facebook fsclicons"></i>
+                <i class="fa fa-twitter-square fsclicons" ></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

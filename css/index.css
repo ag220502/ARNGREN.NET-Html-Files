@@ -1,0 +1,107 @@
+*
+        {
+            margin:0;
+            padding:0;
+            font-family: Arial;
+        }
+        body
+        {
+            background-color: rgb(235,235,235);
+        }
+        .usercontainer
+        {
+            width: 100%;
+        }
+        .alloptions
+        {
+            width: 23%;
+            margin-left: 4%;
+            margin-top: 50px;
+            float: left;
+            min-height: 200px;
+        }
+        .profileinfo
+        {
+            width:65%;
+            float: left;
+            margin-top: 50px;
+            margin-left: 2%;
+            min-height: 690px;
+            background-color: white;
+        }
+        .profileinfo h4
+        {
+            padding:20px 10px 50px 40px;
+            font-size: 1.3em;
+        }
+        .name , .gender , .email
+        {
+            width: 35%;
+            height: 50px;
+            margin-left: 2%;
+            float: left;
+            margin-top: 20px;
+        }
+        label
+        {
+            font-size: 1.4em;
+            line-height: 50px;
+        }
+        .gender
+        {
+            line-height: 50px;
+            font-size: 1.2em;
+        }
+        .name input
+        {
+            width: 90%;
+            height: 80%;
+            border: none;
+            background-color: rgb(240,240,240);
+            font-size: 1.2em;
+            padding-left: 10px;
+        }
+        .email
+        {
+            clear: both;
+        }
+        .btn
+        {
+            font-size: 1.5em;
+            margin-left: 40%;
+            width: 24%;
+            height: 40px;
+            border: none;
+            background-color: rgb(0,59,93);
+            color: rgb(255,204,0);
+            border-radius:10px;
+            margin-top: 20px;
+        }
+        @media only screen and (max-width: 1024px)
+        {
+            .alloptions
+            {
+                width: 35%;
+            }
+            .profileinfo
+            {
+                width: 92%;
+                margin-left: 4%;
+            }
+        }
+        @media only screen and (max-width: 600px)
+        {
+            .alloptions
+            {
+                width: 92%;
+            }
+            .profileinfo
+            {
+                width: 92%;
+                margin-left: 4%;
+            }
+            .name , .gender , .email
+            {
+                width: 48%;
+            }
+        }

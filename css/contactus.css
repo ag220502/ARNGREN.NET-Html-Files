@@ -1,0 +1,365 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.content{
+    width:100%;
+    float: left;
+}
+.content2{
+    width: 50%;
+    height: 100%;
+    margin-left: 1%;
+    float: left;
+    padding-bottom: 10%;
+}
+.info{
+    width: 49%;
+    height: 100%;
+    padding-bottom: 3%;
+    float: left;
+}
+.flow{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+    background-color: white;
+    float: left;
+    text-align: left
+    
+}
+.write1{
+    float: left;
+    margin-top: 10px;
+}
+.write2{
+    width: 48%;
+    float:left;
+    margin-top: 50px;
+}
+.write3{
+    width:48%;
+    float: left;
+    margin: 80px 0 0 20px;
+}
+.new1{
+    margin-top: 40px;
+}
+.new2{
+    width:48%;
+    float: left;
+    margin: 50px 0 0 5px;
+}
+.new3{
+    width:48%;
+    float: left;
+    margin: 50px 0 0 5px;
+}
+.new6{
+    margin-top: 22%;
+}
+.btn{
+    width: 20%;
+    margin: 10px 0 10px 0 ;
+    color: rgb(255,204,0);
+    border: none;
+    border-radius: 10px;
+    line-height: 30px;
+    background-color:  rgb(0,59,93);
+}
+.concept{
+    text-align: center;
+    margin-top: 30px;
+}
+.box{
+    width:23%;
+    height: 5%;
+    padding-bottom: 4%;
+    margin: 30px 0 0 5%;
+    float: left;
+}
+.text1{
+    float: left;
+    margin: 60px 0 0 20px;
+}
+.text1 p{
+    margin: 5px 0 10px 0 ;
+    line-height: 24px;
+}
+.main1{
+    margin-top: 40px;
+}
+.title2{
+    margin-bottom: 10px;
+}
+.sample{
+    width: 90%;
+    line-height: 30px;
+    background-color: lightgray;
+    font-size: 17px;
+}
+.news10{
+    width:95%;
+    line-height: 30px;
+    margin: 30px 0 0 5px;
+    background-color: lightgray;
+    resize:none;
+    font-size: 17px;
+}
+.text1 a{
+    text-decoration: none;
+    color: orange;
+}
+.write3 p,.write2 p{
+    font-size: 15px;
+    font-family: ariel;
+    float: left;
+    width: 90%;
+    padding-top: 5%;
+    line-height: 20px;
+}
+.write2 i,.write3 i{
+    float: left;
+    margin-right: 5px;
+    font-size: 22px;
+    color: rgb(255,204,0);
+}
+.info input{
+    border:none;
+    padding-left: 10px;
+}
+.info input:focus{
+    outline:none;
+}
+textarea{
+    border:none;
+    padding-left: 10px;
+}
+textarea:focus{
+    outline:none;
+}
+
+.f5{
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(235,235,235);
+}
+.btn3{
+    margin: 2%;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(0,59,93);
+    color:rgb(255,204,0);
+    line-height: 20px;
+}
+hr{
+    width: 100%;
+
+}
+@media only screen and (max-width:768px) {
+    .f5{
+        margin-left: 30px;
+    }
+    .btn3{
+        margin-left: 28px;
+        border-radius: 10px;
+    }
+    .content2{
+        width: 99%;
+        height: 100%;
+        margin-left: 1%;
+        float: left;
+        padding-bottom: 2%;
+    }
+    .info{
+        width: 96%;
+        height: 100%;
+        padding: 0 0 4% 4%;
+        float: left;
+    }
+    .write1{
+        margin-top: 5px 0 0 5px;
+        font-size: 16px;
+    }
+    .write2{
+        width: 40%;
+        margin-top: 12px;
+    }
+    .write3{
+        width:44%;
+        margin: 34px 0 0 16%;
+    }
+    .write3 p,.write2 p{
+        font-size: 16px;
+        width: 100%;
+        line-height: 23px;
+    }
+    .write2 p{
+        margin-left: 5px;
+    }
+    .write2 i,.write3 i{
+        font-size: 24px;
+    }
+    .news10{
+        width:100%;
+        line-height: 20px;
+        background-color: lightgray;
+        margin: 2px 0 0 5px;
+        resize: none;
+    } 
+    .new2{
+        width:49%;
+        margin: 10px 0 0 5px;
+    }
+    .new3{
+        width:49%;
+        margin-top: 10px;
+    }
+    .new6{
+        margin-top: 10%;
+    }
+    .btn{
+        width: 30%;
+        margin: 10px 0 0 20px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    .text1{
+        font-size: 13px;
+        margin-left: 35%;
+        margin-top: 0;
+    }
+    .text1 p{
+        line-height: 18px;
+    }
+    .main1{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .title2{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .new1{
+        margin: 2% 0 0 5px;
+        font-size: 14px;
+    }
+    .sample{
+        width: 80%;
+        line-height: 25px;
+        font-size: 14px;
+        float: left;
+        margin-left: 28px;
+    }
+    .news10{
+        width:89%;
+        line-height: 17px;
+        margin-left: 29px;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .concept{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .t2{
+        font-size: 20px;
+    }
+    .image{
+        text-align: center;
+        width: 60%;
+        height: 190px;
+        margin-left: 15%;
+    }
+    .box{
+        width:92%;
+        margin: 15px 0 0 8%;
+    }
+}   
+@media only screen and (max-width:375px) {
+    .capdiv{
+        width: 80%;
+    }
+    .f5{
+        margin-left: 5px;
+    }
+    .info{
+        padding-bottom: 5%;
+    }
+    .write1{
+        font-size: 11px;
+    }
+    .write2{
+        width: 49%;
+    }
+    .write3{
+        margin: 26px 0 0 7%;
+    }
+    .write3 p, .write2 p{
+        font-size: 12px;
+    }
+    .write2 i,.write3 i{
+        font-size: 20px;
+    }
+    .news10{
+        margin-top: 8px 0 0 5px;
+    } 
+    .new2{
+        width:47%;
+        margin-top: 10px;
+    }
+    .new3{
+        width:49.3%;
+    }
+    .btn{
+        width: 50%;
+        margin: 10px 0 0 5px;
+        line-height: 18px;
+    }
+    .text1{
+        margin: 2% 0 0 35%;
+        font-size: 10px;
+    }
+    .text1 p{
+        line-height: 11px;
+    }
+    .main1{
+        font-size: 12px;
+    }
+    .title2{
+        font-size: 10px;
+    }
+    .new1{
+        margin: 6% 0 0 5px;
+        font-size: 9px;
+    }
+    .sample{
+        line-height: 17px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .news10{
+        line-height: 15px;
+        margin-left: 6px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .concept{
+        text-align: center;
+    }
+    .t2{
+        font-size: 14px;
+    }
+    .image{
+        width: 75%;
+        height: 150px;
+        margin-left: 25px;
+    }
+    
+}

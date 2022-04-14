@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pdcontainer {
+    width: 100%;
+    height: 100%;
+}
+
+.picdiv {
+    width: 90%;
+    height: 350px;
+    margin: 50px 0 50px 5%;
+}
+.slider {
+    width: 500px;
+    position: relative;
+    float: left;
+    margin-left: 5%;
+}
+.item {
+    display: none;
+}
+.item.active {
+    display: block;
+}
+.item img {
+    width: 100%;
+    height: 340px;
+    display: block;
+}
+.left-slide, .right-slide {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 59, 93);
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    top: 50%;
+    cursor: pointer;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+}
+.left-slide {
+    left: -20px;
+}
+.right-slide {
+    right: -20px;
+}
+
+.pdetails {
+    width: 45%;
+    height: 100%;
+    margin-left: 5%;
+    float: left;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+}
+.pdetails h2 {
+    margin-bottom: 10px;
+}
+.pdetails p {
+    margin-bottom: 10px;
+}
+.pdetails span {
+    margin-bottom: 10px;
+}
+.checked {
+    color: orange;
+}
+
+.pdexpress {
+    width: 65%;
+    height: 118px;
+    margin: 30px 0 10px 40px;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(0, 59, 93);
+}
+.pdexpress .expresscontent {
+    width: 70%;
+    color: rgb(230, 230, 230);
+    margin: 10px;
+    font-size: 16px;
+    float: left;
+}
+.expressicon {
+    float: left;
+    color: rgb(230, 230, 230);
+    margin: 35px 0 0 10px;
+}
+
+.addtocart {
+    width: 66%;
+    margin:10px 0 20px 40px;
+    box-sizing: border-box;
+    float: left;
+}
+.addtocart input {
+    width: 15%;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+}
+.addtocart button {
+    width: 58%;
+    height: 35px;
+    border: none;
+    background-color: rgb(0, 59, 93);
+    color: white;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+}
+.addtocart .carticon {
+    width: 40px;
+    height: 35px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    font-size: 19px;
+    background-color: rgb(0, 59, 93);
+}
+
+.proheading {
+    margin-bottom: 10px;
+}
+
+.prolayout {
+    width: 90%;
+    margin: 30px 0 0 5%;
+    padding: 1.5%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+    background-color: rgb(235, 235, 235);
+}
+
+.prodesc {
+    width: 50%;
+    height: 320px;
+}
+.prodesc ul {
+    padding: 1% 2% 0 2%;
+    box-sizing: border-box;
+}
+.prodesc ul li {
+    margin-bottom: 8px;
+}
+
+.proabout {
+    width: 35%;
+}
+.proabout table {
+    width: 90%;
+    border-collapse: collapse;
+    height: 250px;
+    text-align: left;
+}
+.proabout table td,th {
+    padding: 2%;
+    box-sizing: border-box;
+}
+.proabout table th {
+    font-size: 17px;
+}
+
+.relatedproducts {
+    width: 90%;
+    margin: 0 0 50px 5%;
+    height: 100%;
+    float: left;
+}
+.product {
+    width: 21.5%;
+    margin: 50px 0 0 4%;
+    float: left;
+    position: relative;
+    left: 0;
+    border: 1px solid lightgray;
+    box-shadow: 5px 10px 18px #7e7e7e;
+}
+.pic .cartframe {
+    width: 100%;
+    height: 176px;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    visibility: hidden;
+}
+.product:hover .cartframe {
+    visibility: visible;
+}
+.cart {
+    width: 50%;
+    padding: 2%;
+    margin: 30% 0 0 25%;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pic {
+    width: 100%;
+    height: 175px;
+    border-bottom: 1px solid lightgray;
+}
+.pic img {
+    width: 100%;
+    height: 175px;
+}
+.details {
+    width: 100%;
+    height: 30px;
+    padding: 2.5% 0 0 3%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+    .pdexpress {
+        width: 85%;
+        margin-left: 7%;
+    }
+    .addtocart {
+        width: 85%;
+        margin-left: 7%;
+    }
+    .prodesc {
+        width: 90%;
+        height: 250px;
+    }
+    .picdiv {
+        margin-bottom: 20px;
+    }
+    .slider {
+        width: 350px;
+        margin-left: 0;
+    }
+    .item img {
+        height: 280px;
+    }
+    .pdetails {
+        margin-left: 3.5%;
+    }
+    .proabout {
+        width: 90%;
+    }
+    .pic {
+        height: 145px;
+    }
+    .pic img {
+        height: 145px;
+    }
+    .pic .cartframe {
+        height: 146px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .picdiv {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+    .slider {
+        width: 100%;
+        float: none;
+    }
+    .item img {
+        height: 250px;
+    }
+    .left-slide {
+        left: 0;
+    }
+    .right-slide {
+        right: 0;
+    }
+    .pdetails {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        padding-top: 15px;
+        float: none;
+    }
+    .pdetails h2, .pdetails p, .pdetails span {
+        margin-left: 5px;
+    }
+    .prolayout {
+        width: 100%;
+        margin-left: 0;
+    }
+    .proheading {
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    .prodesc {
+        padding-left: 4%;
+        height: 100%;
+    }
+    .proabout table {
+        margin-left: 5%;
+    }
+    .relatedproducts {
+        width: 90%;
+        padding-left: 2%;
+    }
+    .product {
+        width: 45%;
+        margin: 50px 4% 0 0;
+    }
+    .pic .cartframe {
+        height: 156px;
+    }
+    .cart {
+        width: 60%;
+        margin: 40% 0 0 20%;
+    }
+    .pic {
+        height: 155px;
+    }
+    .pic img {
+        height: 155px;
+    }
+}

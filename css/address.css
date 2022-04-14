@@ -1,0 +1,108 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+body
+{
+    background-color: rgb(235,235,235);
+}
+.addresscontainer
+{
+    width: 100%;
+}
+.alloptions
+{
+    width: 23%;
+    margin-left: 4%;
+    margin-top: 50px;
+    float: left;
+    min-height: 200px;
+}
+.manage
+{
+    width:65%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 2%;
+    min-height: 690px;
+    background-color: white;
+}
+.manage h4
+{
+    padding:20px 10px 50px 40px;
+    font-size: 1.3em;
+}
+.add
+{
+    width: 90%;
+    margin:0 auto;
+    height: 50px;
+    background-color: rgb(235,235,235);
+}
+.add h4
+{
+    line-height: 50px;
+    padding: 0px 10px 10px 10px;
+    color:rgb(0,59,93);
+    font-size: 1em;
+}
+.alladdress
+{
+    width: 90%;
+    margin:0 auto;
+    background-color: rgb(235,235,235);
+    margin-top: 30px;
+    
+}
+.alladdress .place
+{
+    padding: 5px 0px 5px 10px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(0,59,93);
+    color: rgb(255,205,0);
+    margin-left: 5%;
+}
+.alladdress h5
+{
+    padding: 10px 0px 5px 40px;
+    font-size: 1em;
+}
+.useradd
+{
+    padding: 0px 0px 20px 40px;
+    font-size: 1em;
+    background-color: none;
+}
+.phone
+{
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .alloptions
+    {
+        width: 35%;
+    }
+    .manage
+    {
+        width: 92%;
+        margin-left: 4%;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .alloptions
+    {
+        width: 92%;
+    }
+    .manage
+    {
+        width: 92%;
+        margin-left: 4%;
+    }
+}

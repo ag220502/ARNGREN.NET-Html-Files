@@ -1,0 +1,56 @@
+.ctgheader {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0,59,93);
+}
+.ctglogo {
+    width: 20%;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+.ctglogo img {
+    width: 100%;
+    height: 100%;
+}
+.ctgsearch {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+.ctgsearch input {
+    width: 85%;
+    height: 45%;
+    padding-left: 15%;
+    margin: 18px 0 0 20px;
+    border-radius: 20px;
+    border: none;
+}
+.ctgsearch i {
+    position: absolute;
+    top: 25px;
+    left: 105px;
+    color: rgb(90, 89, 89);
+}
+.ctgcart {
+    width: 15%;
+    height: 100%;
+    float: left;
+    padding: 18px 0 0 10px;
+    font-size: 26px;
+    box-sizing: border-box;
+    color: rgb(221, 218, 218);
+}
+
+@media only screen and (min-width: 768px) {
+    .ctgheader {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024) {
+    .ctgheader {
+        display: none;
+    }
+}

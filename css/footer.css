@@ -1,0 +1,262 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    width: 100%;
+    padding:5% 0% 20% 0%;
+    height: 100%;
+    color: white;
+    background-color: rgb(0, 59, 93);
+    float: left;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer p{
+    font-size: 18px;
+    line-height: 22px;
+}
+.fcontactus{
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+}
+.footerheading{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    
+}
+.footerlogo{
+    width: 80%;
+    float: left;
+    margin:0% 0% 0% 8%;
+    padding:2%;
+    color: rgb(255,205,0);
+}
+.footerlogo h1{
+    text-align: center;
+    margin: 0px;
+}
+.footerlogo a{
+    text-decoration: none;
+    color: rgb(255,205,0);
+}
+.fcontactinfo{
+    width: 81%;
+    margin: 0% 0% 0% 10%;
+    float: left;
+}
+.fconinfo{
+    width: 90%;
+    float: left;
+    padding-top:2% ;
+}
+.footericon{
+    float: left;
+    font-size: 22px;
+    line-height: 30px;
+    margin-left: 5%;
+}
+.footericon i{
+    color: rgb(255,205,0);
+}
+.fcontactus p{
+    padding-left: 18%;
+    margin: 2% 0% 0% 0%;
+}
+.finfo, .fmyaccount, .fnewsletter{
+    width: 100%;
+    height: 300px;
+    padding: 2% 0% 2% 0%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+}
+.finfo{
+    margin-top: 8%;
+}
+.finfoul{
+    list-style: none;
+    display: inline-block;
+    margin: 5% 0% 0% 14%;
+    line-height: 30px;
+}
+.emailaddress{
+    font-size: 20px;
+    padding: 2% 0% 2% 2%;
+    margin: 2% 0% 0% 6%;
+    width: 60%;
+    outline: none;
+    border: 1px solid black;
+    border-right: none;
+}
+.fnewsletter p{
+    margin: 10% 0% 5% 10%;
+}
+.fsubbtn{
+    width:27%;
+    padding: 2%;
+    margin-left: -5px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid black;
+    border-left: none;
+    background-color:rgb(255,205,0);
+}
+.footericon{
+    margin-left: 0%;
+}
+.fsocialicons{
+    margin-left: 10%;
+    font-size:30px;
+}
+.fsclicons{
+    font-size:30px;
+    margin-left: 5%;
+    color: rgb(255,205,0);
+}
+.fmyaccount{
+    display: none;
+}
+@media only screen and (min-width:768px) {
+    .footerlogo h1{
+        text-align: left;
+        margin: 0px;
+        font-size: 28px;
+    }
+    .finfo{
+        margin-top: 0%;
+    }
+    .footer{
+        height: 370px;
+        padding:3% 0% 2% 0%;
+    }
+    .footer p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .footerlogo{
+        margin:0% 0% 0% 5%;
+    }
+    .fcontactus{
+        width: 28%;
+        padding: 2% 0% 2% 4%;
+        float: left;
+    }
+    .fcontactinfo{
+        width: 81%;
+        margin: 0% 0% 0% 2%;
+        float: left;
+    }
+    .finfo, .fnewsletter{
+        width: 20%;
+        height: 330px;
+        float: left;
+        font-size: 16px;
+        margin-left: 6%;
+        line-height: 30px;
+    }
+    .fnewsletter{
+        width: 34%;
+    }
+    .fmyaccount{
+        display: none;
+    }
+    .footerheading{
+        width:100%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .finformation ul,.faccount ul{
+        margin-left: 0px;
+        padding: 0%;
+        margin-top: 10%;
+    }
+    .footericon{
+        margin: 0% 2% 0% 0%;
+    }
+    
+    .fnewsletter p{
+        margin: 8% 0% 1% 1%;
+    }
+    .fpara{
+        display: inline-block;
+    }
+    .emailaddress{
+        font-size: 16px;
+        width: 65%;
+        padding: 2% 0% 2% 2%;
+        margin: 2% 0% 0% 0%;
+    }
+    .fsubbtn{
+        font-size: 16px;
+        width: 32%;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .footer{
+        height: 400px;
+    }
+    .footer p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .footerlogo{
+        margin:0% 0% 0% 14%;
+    }
+    .footerlogo h1{
+        font-size: 40px;
+    } 
+    .fcontactus{
+        width: 30%;
+        padding: 2% 0% 2% 0%;
+        float: left;
+    }
+    .fcontactinfo{
+        height: 240px;
+        margin: 0% 0% 0% 8%;
+    }
+    .fmyaccount{
+        display: block;
+    }    
+    .finfo, .fmyaccount, .fnewsletter{
+        width: 20%;
+        height: 358.5px;
+        float: left;
+        font-size: 16px;
+        margin-left: 0%;
+        line-height: 30px;
+    }
+
+    .fnewsletter{
+        width: 26%;
+        padding: 2%;
+    }
+    .footerheading{
+        font-size: 14px;
+    }
+    .finformation ul,.faccount ul{
+        margin: 15% 0% 0% 20%;
+    }
+    .footericon{
+        margin-left: 6%;
+    }
+    .fnewsletter .fpara{
+        margin: 12% 0% 1% 1%;
+    }
+    .emailaddress{
+        font-size: 16px;
+        width: 60%;
+        padding: 2% 0% 2% 2%;
+        margin: 2% 0% 0% 1%;
+    }
+    .fsubbtn{
+        font-size: 16px;
+        width: 28%;
+    }
+    
+}

@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 26%;
+    height: 100%;
+    margin: 50px 37%;
+    padding-bottom: 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+.heading {
+    width: 100%;
+    height: 45px;
+}
+.heading h3 {
+    padding: 5%;
+    color: rgb(0, 59, 93);
+    text-align: center;
+}
+.heading hr {
+    background-color: gray;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.mainbody {
+    width: 82%;
+    margin-left: 9%;
+    margin-top: 40px;
+}
+.mainbody input {
+    width: 96%;
+    height: 42px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+input:focus{
+    outline: none;
+}
+.check {
+    margin-top: 15px;
+}
+.cbox {
+    width: 5%;
+    float: left;
+}
+.content {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 15px;
+    float: left;
+}
+.mainbody button {
+    width: 100%;
+    height: 42px;
+    background-color: rgb(0, 59, 93);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: rgb(255, 204, 0);
+    font-weight: bold;
+    cursor: pointer;   
+}
+.mainbody h5 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+}
+.mainbody a {
+    text-decoration: none;
+    color: rgb(0, 59, 93);
+}
+.mainbody a:hover {
+    color: black;
+}
+
+.login {
+    width: 82%;
+    margin-left: 9%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+.login a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 59, 93);
+}
+.login a:hover {
+    color: black;
+}
+
+#gen-btn {
+    font-size: 14px;
+    justify-content: center;
+}
+
+/*Password Generator*/
+.pwdbody {
+    background-color: rgb(235, 235, 235);
+    padding: 2%;
+    height: 320px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    display: none;
+    border: 1px solid lightgray;
+}
+.result-container {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 5px 5px;
+    height: 30px;
+    width: 97%;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+.result-container #result {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}
+.result-container .btn {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    width: 35px;
+    height: 33px;
+    font-size: 18px;
+}
+.btn {
+    width: 100%;
+    height: 42px;
+    background-color: rgb(0, 59, 93);
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-large {
+    display: block;
+    width: 100%;
+}
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.setting input {
+    width: 15%;
+    height: 16px;
+}
+.fa-times {
+    float: right;
+    right: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 50%;
+        margin: 80px 25%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+        margin: 75px 0;
+    }
+    .pwdbody {
+        width: 95%;
+        margin-left: 0;
+    }
+    .footer {
+        display: none;
+    }
+}
